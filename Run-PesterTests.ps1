@@ -1,8 +1,6 @@
 using module .\PesterTests.psm1
 
 function Install-DependencyLocal {
-    Install-PackageProvider -Name Nuget -Scope CurrentUser -Force -Confirm:$false
-
     try {
         Update-Module Pester
     }
