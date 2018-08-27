@@ -16,3 +16,4 @@ There seems to be a strange interaction when the following conditions are met:
 ```
 CommandNotFoundException: The term 'function_name' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
 ```
+The tests seem to work just fine when you define the same `Invoke-Pester` wrapper function locally in the scope of the main test script.
